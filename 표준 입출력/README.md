@@ -52,7 +52,6 @@ $ sort input | lpr
 $ ls -al | wc
 ```
 > > ls-al 의 결과를 wc(글자수, 바이트수 알려주는 명령어) 로보냄
-```
 
 ### :dart: 표준 출력의 Pipline
 
