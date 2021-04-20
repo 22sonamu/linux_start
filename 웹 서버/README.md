@@ -68,4 +68,4 @@ $ sudo a2enmod cgi
   
 ### 🎯 특정 사용자가 html 문서를 작성하여 게시할수 있게 하기
 
-/var/www/html 디렉토리의 
+/var/www/html 디렉토리의 권한 
