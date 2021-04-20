@@ -40,6 +40,7 @@
     - Tape drive 
       - 자기 테이프에 데이터를기록
       - 임의 접근이 느려 주로 백업 데이터 저장 용도로 사용
+![image](https://user-images.githubusercontent.com/73538957/115355017-3731c480-a1f5-11eb-9188-5e81919f3bed.png)
  
  
  
