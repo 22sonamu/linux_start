@@ -30,7 +30,7 @@ $ apt list --installed <패키지명>
 ### :dart: 프로그램 설치
 
 ```
-sudo apt install <프로그램명>
+$ sudo apt install <프로그램명>
 ```
 
 ### :dart: 패키지 정보 확인
