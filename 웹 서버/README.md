@@ -53,4 +53,19 @@ $ sudo a2enmod cgi
 
 5. 서버 재시작
 
-6. http://localhost/cgi-bin/example.sh로 접속
+6. http://localhost/cgi-bin/example.sh 로 접속
+
+
+
+### :dart: HTTP의 respense code
+
+1. 200
+  - 요청 성공
+2. 403
+  - 서버에 요청이 전달되었지만, 권한 때문에 거절되었다
+3. 404
+  -  서버와 통신할 수는 있지만, 서버가 요청한 바를 찾을 수 없다
+  
+### 🎯 특정 사용자가 html 문서를 작성하여 게시할수 있게 하기
+
+/var/www/html 디렉토리의 
