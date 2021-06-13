@@ -103,8 +103,17 @@ httpd.handle_request()
        start_response('200 OK', [ ])..
        return [response_body] #응답의 형태는 image/png
     else:
+    ```
+    - ![image](https://user-images.githubusercontent.com/73538957/121818948-6a5c7580-ccc5-11eb-8155-922fe0793390.png)
+
       
 3. serve.py 
  - 위 두가지를 이용하여 wsgi 핸들러 몸체를 구현
  
+ ```python
+ httpd = make_server('', 8051, application)
+ httpd.serve_forever() # 계속해서 요청 처리
+ ```
 
+### 콘솔 로그 확인
+![image](https://user-images.githubusercontent.com/73538957/121819023-e5be2700-ccc5-11eb-9c22-e5552966511f.png)
