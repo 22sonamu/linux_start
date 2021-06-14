@@ -103,7 +103,7 @@ httpd.handle_request()
        start_response('200 OK', [ ])..
        return [response_body] #응답의 형태는 image/png
     else:
-    ```
+  ```
     - ![image](https://user-images.githubusercontent.com/73538957/121818948-6a5c7580-ccc5-11eb-8155-922fe0793390.png)
 
       
